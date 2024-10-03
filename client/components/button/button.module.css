@@ -1,0 +1,36 @@
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.btnContainer > span {
+  border-radius: 15px;
+  padding: 0 7px;
+  font-size: small;
+  font-weight: 500;
+  color: white;
+  background-color: var(--primary-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 5px 8px;
+  border: none;
+  color: var(--primary-color);
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+.activeSpan {
+  background-color: var(--accent-color) !important;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.activeBtn {
+  color: var(--accent-color);
+  font-weight: 700;
+}

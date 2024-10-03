@@ -1,0 +1,10 @@
+.addBtn {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: 600;
+  color: green;
+  background-color: rgb(236, 250, 226);
+  padding: 10px 15px;
+  border: none;
+}

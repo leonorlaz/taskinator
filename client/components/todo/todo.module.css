@@ -1,0 +1,68 @@
+.todo {
+  margin-top: 1rem;
+  border-radius: 15px;
+  padding: 0px 5px;
+  min-width: 300px;
+  min-height: 100px;
+  font-size: small;
+  padding: 10px 15px;
+  background-color: var(--secondary-color);
+}
+.content {
+  padding: 10px 12px;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title > h2 {
+  color: black;
+}
+.completed {
+  text-decoration: line-through;
+}
+.icons {
+  cursor: pointer;
+  margin-right: 15px;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
+
+.completed h2 {
+  text-decoration: line-through;
+}
+
+.btnGrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btnEdit {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.btnDelete {
+  padding: 6px 15px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: 600;
+  background-color: rgb(251, 153, 174);
+  color: var(--danger-color);
+}

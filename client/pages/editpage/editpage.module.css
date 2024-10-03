@@ -1,0 +1,21 @@
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+a svg {
+  margin-right: 4px;
+}
+
+.editBtn {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: 600;
+  color: green;
+  background-color: rgb(236, 250, 226);
+  padding: 10px 15px;
+  border: none;
+}
